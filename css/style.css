@@ -1,0 +1,48 @@
+:root {
+  --text-color:white;
+  --bg-color: rgb(46, 44, 44);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  flex-wrap: wrap;
+  flex-grow: 0.5;
+  background-color:var(--bg-color);
+}
+
+.logotip {
+  font-size: 2em;
+  font-style: italic;
+  color: var(--text-color);
+}
+
+.list-item {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.link, .but-contact {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.list-item + .list-item {
+  margin-left: 4px;
+}
+
+.link {
+ font-size: 1em;
+}
+
+.but-contact {
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: 0.8em;
+  background-color: var(--bg-color);
+  padding: 10px 20px;
+}
